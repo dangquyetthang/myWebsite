@@ -1,0 +1,64 @@
+/*Mobile*/
+@media only screen and (max-width: 767px){
+
+    .column{
+        justify-content: center;
+    }
+    
+    .column-goal {
+        width: 350px;
+
+    }
+    .column-goal .item:first-child {
+        height: fit-content;
+    }
+    .Goal .icon {
+        margin-left: 100px;
+    }
+    .Goal .content {
+        width: 300px;
+        padding: 0px 30px;
+    }
+    .Scopes .content {
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .member {
+        display: flex;
+        flex-direction: column;
+    }
+    .icon {
+        margin-left: 130px;
+        padding: 15px;
+        font-size: 30px;
+    }
+    .member .content {
+        margin: 0px 70px 0px 40px;
+    }
+    .primary .content {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .column-team .item:nth-child(2) {
+        height: fit-content;
+    }
+    .column-timeline {
+
+        height:fit-content;
+    }
+    .column-timeline .item {
+    height:fit-content;
+    }
+    .timeline .content {
+        margin-left: 10px;
+    }
+    .timeline .icon {
+        margin-right: 70px;
+        margin-left: 10px;
+        padding: 0px 10px;
+        font-size: 60px;
+    }
+
+}

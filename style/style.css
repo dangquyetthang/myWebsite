@@ -1,0 +1,100 @@
+*{
+    line-height: 1.13;
+}
+.content{
+    font-size: 18px;
+}
+.section{
+    background-color: blue;
+}
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.item{
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(152, 228, 203);
+    border: solid 1px rgb(211, 160, 211);
+}
+.title{
+    color: rgba(34, 34, 206, 0.692);
+    border-bottom: solid 1px grey;
+}
+
+/* column goals */
+.column-goal{
+    width: 700px;
+}
+.Goal{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid 1px grey;
+}
+.column-goal .item:first-child{
+    height: 435px;
+}
+
+.icon{
+    margin-right: 20px;
+    padding: 25px;
+    font-size: 25px;
+}
+.Goal .content{
+    font-size: 20px;
+    line-height: 1.5;
+    width: 500px;
+}
+
+.Scopes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+}
+.Scopes .content{
+    width: 40%;
+    padding:10px;
+ 
+}
+/* column Team */
+.column-team{
+    width:370px;
+}
+.member{
+    display: flex;
+    flex-wrap: wrap;
+}
+.member .content{
+    margin: 0px 70px 0px 0px;
+}
+.primary{
+    display: flex;
+    flex-wrap: wrap;
+}
+.primary .content{
+    width: 220px;
+}
+/* column Timeline */
+.column-timeline{
+    width:370px;
+    height: 816px;
+}
+.column-timeline .item{
+    height: 805px;
+}
+.column-team .item:nth-child(2){
+    height: 335px;
+}
+.timeline{
+    display: flex;
+    flex-wrap: wrap;
+}
+.timeline .content{
+    border-bottom: dotted 2px rgb(25, 199, 199);
+}
+
+

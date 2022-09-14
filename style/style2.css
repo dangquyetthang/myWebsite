@@ -1,0 +1,67 @@
+/*Tablet*/
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    /* Goal column */
+    .column-goal {
+        width: 100%;
+    }
+        .Goal {
+        flex-direction: column;
+    }
+    .icon {
+        margin: auto;
+    }
+    .Goal .content {
+        margin-left: 30px;
+        width: 100%;
+    }
+    .column-goal .item:first-child {
+    height:fit-content;
+    }
+
+    .Scopes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .Scopes .content {
+    width: 100%;
+    margin-left: 30px;
+    padding:0px;
+    }
+    .column-team {
+        width: 100%;
+    }
+    .member {
+        display: flex;
+        flex-direction: column;
+    }
+    .member .content {
+        margin: 0px 0px 0px 30px;
+    }
+    .column-team .item:nth-child(2) {
+        height:fit-content;
+    }
+    .primary {
+        display: flex;
+        flex-direction: column;
+    }
+    .primary .content {
+        margin-left: 30px;
+        width: 100%;
+    }
+    .column-timeline {
+        width:100%;
+        height: fit-content;
+    }
+    .timeline .content {
+        margin-right: 500px;
+    }
+    .column-timeline .item {
+        height: 100%;
+    }
+    .timeline .icon {
+        margin: 0px 20px 0px 0px;
+        padding: 15px;
+        font-size: 25px;
+    }
+}
